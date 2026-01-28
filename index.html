@@ -1,71 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Donation – Plateforme solidaire</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
   <!-- HEADER -->
-  <header>
-    <h1>Donation</h1>
-    <nav>
-      <a href="#accueil">Accueil</a>
-      <a href="#apropos">À propos</a>
-      <a href="#aides">Aides</a>
-      <a href="#processus">Processus</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Donation</h1>
+      <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="aides.html">Aides</a>
+        <a href="process.html">Processus</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- ACCUEIL -->
-  <section id="accueil">
-    <h2>Bienvenue chez Donation</h2>
-    <p>
-      Plateforme solidaire d’aide financière et d’accompagnement
-      de projets en France.
-    </p>
-  </section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h2>Une plateforme solidaire pour soutenir les projets et les personnes en difficulté</h2>
+      <p>
+        Donation accompagne les familles, étudiants, travailleurs et porteurs de projets
+        après étude sérieuse et vérification des informations.
+      </p>
 
-  <!-- À PROPOS -->
-  <section id="apropos">
-    <h2>À propos</h2>
-    <p>
-      Donation est une initiative solidaire visant à soutenir
-      les personnes en difficulté et les porteurs de projets sérieux.
-    </p>
+      <div class="buttons">
+        <a class="btn primary" href="https://wa.me/33759869148?text=Bonjour,%20je%20souhaite%20déposer%20une%20demande%20d’aide" target="_blank">
+          Déposer une demande
+        </a>
+        <a class="btn secondary" href="https://t.me/+33780715293" target="_blank">
+          Assistance Telegram
+        </a>
+      </div>
+
+      <p class="zone">📍 Zone d’intervention : France</p>
+    </div>
   </section>
 
   <!-- AIDES -->
-  <section id="aides">
-    <h2>Aides proposées</h2>
-    <ul>
-      <li>Familles : jusqu’à 3 000 €</li>
-      <li>Étudiants : jusqu’à 5 000 €</li>
-      <li>Sans emploi : jusqu’à 8 000 €</li>
-      <li>Travailleurs : jusqu’à 10 000 €</li>
-    </ul>
+  <section class="section">
+    <div class="container">
+      <h3>Aides proposées</h3>
+      <div class="cards">
+        <div class="card">👶 Enfants & familles<br><strong>jusqu’à 3 000 €</strong></div>
+        <div class="card">🎓 Étudiants<br><strong>jusqu’à 5 000 €</strong></div>
+        <div class="card">🚫 Sans emploi<br><strong>jusqu’à 8 000 €</strong></div>
+        <div class="card">👷 Travailleurs<br><strong>jusqu’à 10 000 €</strong></div>
+        <div class="card">💍 Couples mariés<br><strong>jusqu’à 15 000 €</strong></div>
+        <div class="card">👴 +45 ans<br><strong>Aide personnalisée</strong></div>
+      </div>
+    </div>
   </section>
 
-  <!-- PROCESSUS -->
-  <section id="processus">
-    <h2>Processus</h2>
-    <ol>
-      <li>Dépôt de la demande</li>
-      <li>Étude du dossier</li>
-      <li>Vérification</li>
-      <li>Décision</li>
-    </ol>
+  <!-- PROCESS -->
+  <section class="section light">
+    <div class="container">
+      <h3>Processus d’accompagnement</h3>
+      <ol class="process">
+        <li>Dépôt de la demande</li>
+        <li>Étude du dossier</li>
+        <li>Vérification des informations</li>
+        <li>Décision d’accompagnement</li>
+        <li>Mise en place de l’aide</li>
+      </ol>
+    </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>WhatsApp : +33 XX XX XX XX</p>
-    <p>Telegram : +33 XX XX XX XX</p>
-  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        ⚖️ Donation n’est pas un établissement bancaire.<br>
+        Les aides financières ne sont ni automatiques ni garanties.
+      </p>
+      <p>©️ 2026 Donation – Tous droits réservés</p>
+    </div>
+  </footer>
 
-  <!-- FOOTER
+</body>
+</html>
